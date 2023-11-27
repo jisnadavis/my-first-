@@ -1,0 +1,102 @@
+/*.height-example {
+  margin-bottom: 25px;
+  width: 250px;
+  border: 3px solid red;
+}
+#lightblue {
+  height: 80px;
+  background-color: blue;
+}
+#blueviolet:hover {
+  height: 100px;
+  background-color: blueviolet;
+}
+#parent {
+  height: 100px;
+  background-color: crimson;
+}
+#child {
+  height: 50%;
+  width: 75%;
+  background-color: goldenrod;
+}
+.overflow-visible {
+  height: 2em;
+  width: 12em;
+  border: 3px dotted orange;
+  margin-bottom: 100px;
+  overflow: visible;
+}
+.overflow-hidden {
+  width: 13em;
+  height: 2em;
+  border: 3px dotted rebeccapurple;
+  overflow: hidden;
+}
+.overflow-scroll {
+  width: 2em;
+  height: 13em;
+  border: 3px dotted green;
+  overflow: scroll;
+}
+.overflow-auto {
+  width: 12em;
+  height: 2em;
+  border: 3px dotted orange;
+  overflow: auto;
+}
+div {
+  width: 250px;
+  height: 75px;
+  padding: 25px;
+  border: 5px solid black;
+  background-color: rgb(79, 44, 236);
+}
+.content-box {
+  box-sizing: content-box;
+}
+.marginexample {
+  width: 800px;
+  margin: 200px;
+  height: 100;
+  padding: 10px;
+  background-color: brown;
+  color: whitesmoke;
+  border: 2px solid black;
+}
+.element {
+  width: auto;
+  margin: auto;
+  border: solid blueviolet;
+  padding: 20px;
+
+  box-shadow: 25px 25px 5px 120px red;
+}
+.shadow-example {
+  box-shadow: 10px 10px 5px 25px black;
+  width: 500px;
+  margin: auto;
+  height: 100%;
+}
+div {
+  background-color: blueviolet;
+  display: grid;
+}
+span {
+  background-color: steelblue;
+}*/
+div {
+  margin: auto;
+  padding: auto;
+  display: flex;
+  background-color: crimson;
+}
+span {
+  background-color: steelblue;
+  width: 100px;
+  height: 50px;
+  padding: 30px;
+  list-style-type: none;
+  text-align: center;
+  margin: 10px 10px;
+}
